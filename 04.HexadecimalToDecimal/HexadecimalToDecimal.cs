@@ -15,7 +15,7 @@ class HexadecimalToDecimal
         string decimalNumber = Console.ReadLine();
         int iNumber = int.Parse(decimalNumber, System.Globalization.NumberStyles.HexNumber);
         string sInt = iNumber.ToString();
-        string sInt2 = Convert.ToString(Convert.ToInt32(hexValue, 16), 2);
+        string sInt2 = Convert.ToString(Convert.ToInt32(decimalNumber, 16), 2);
 
         Console.WriteLine("The decimal representation of {0} is {1}\n", decimalNumber, iNumber);
     }

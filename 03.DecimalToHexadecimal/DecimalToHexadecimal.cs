@@ -10,7 +10,7 @@ using System;
         {
             Console.WriteLine("Hexadecimal To Decimal\n");
 
-            Console.Write("Enter your hex number: ");
+            Console.Write("Enter your number: ");
            
             int decimalNumber = int.Parse(Console.ReadLine());
             string hexValue = decimalNumber.ToString("X");
